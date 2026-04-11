@@ -1,0 +1,34 @@
+pimcore:
+    custom_views:
+        definitions:
+            e49510af-0990-1f44-362a-cb4e22c89b10:
+                name: Suppliers
+                treetype: object
+                position: left
+                rootfolder: /Suppliers
+                showroot: false
+                sort: 0
+                treeContextMenu:
+                    object:
+                        items:
+                            add: true
+                            addFolder: true
+                            importCsv: true
+                            cut: true
+                            copy: true
+                            paste: true
+                            delete: true
+                            rename: true
+                            reload: true
+                            publish: true
+                            unpublish: true
+                            searchAndMove: true
+                            lock: true
+                            unlock: true
+                            lockAndPropagate: true
+                            unlockAndPropagate: true
+                            changeChildrenSortBy: true
+                classes: '2'
+                joins: {  }
+                id: e49510af-0990-1f44-362a-cb4e22c89b10
+                icon: /bundles/pimcoreadmin/img/flat-color-icons/organization.svg

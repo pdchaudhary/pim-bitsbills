@@ -1,0 +1,34 @@
+pimcore:
+    custom_views:
+        definitions:
+            69e93a83-96e6-5802-4955-bdecebb2975f:
+                name: Categories
+                treetype: object
+                position: left
+                rootfolder: /Categories
+                showroot: true
+                sort: 0
+                treeContextMenu:
+                    object:
+                        items:
+                            add: true
+                            addFolder: true
+                            importCsv: true
+                            cut: true
+                            copy: true
+                            paste: true
+                            delete: true
+                            rename: true
+                            reload: true
+                            publish: true
+                            unpublish: true
+                            searchAndMove: true
+                            lock: true
+                            unlock: true
+                            lockAndPropagate: true
+                            unlockAndPropagate: true
+                            changeChildrenSortBy: true
+                classes: '1'
+                joins: {  }
+                id: 69e93a83-96e6-5802-4955-bdecebb2975f
+                icon: /bundles/pimcoreadmin/img/flat-color-icons/flow_chart.svg
