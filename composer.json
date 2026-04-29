@@ -14,17 +14,16 @@
   "prefer-stable": true,
   "minimum-stability": "dev",
   "require": {
-    "php": "~8.3.0 || ~8.4.0",
-    "pimcore/admin-ui-classic-bundle": "*",
-    "pimcore/data-hub": "^2.4",
-    "pimcore/data-importer": "^2.4",
-    "pimcore/perspective-editor": "^2.2",
-    "pimcore/pimcore": "^12.3",
-    "pimcore/platform-version": "2025.4",
-    "pimcore/quill-bundle": "*",
-    "symfony/amqp-messenger": "^6.2 || ^7.2",
-    "symfony/dotenv": "^6.2 || ^7.2",
-    "symfony/runtime": "^6.2 || ^7.3"
+    "php": "~8.2.0 || ~8.3.0",
+    "pimcore/admin-ui-classic-bundle": "^1.0",
+    "pimcore/data-hub": "^1.0",
+    "pimcore/data-importer": "^1.0",
+    "pimcore/perspective-editor": "^1.0",
+    "pimcore/pimcore": "^11.0",
+    "pimcore/quill-bundle": "^1.0",
+    "symfony/amqp-messenger": "^6.4",
+    "symfony/dotenv": "^6.4",
+    "symfony/runtime": "^6.4"
   },
   "require-dev": {
     "codeception/codeception": "^5.0.3",

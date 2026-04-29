@@ -6,7 +6,7 @@ pimcore:
                 treetype: object
                 position: left
                 rootfolder: /Suppliers
-                showroot: false
+                showroot: true
                 sort: 0
                 treeContextMenu:
                     object:
